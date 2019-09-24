@@ -34,6 +34,7 @@
         <logger name="org.mybatis" level="INFO"></logger>
         <logger name="org.hibernate" level="INFO"></logger>
         <logger name="com.zaxxer" level="INFO"></logger>
+        <logger name="org.apache.shiro" level="DEBUG"></logger>
         <root level="all">
             <appender-ref ref="Console"/>
             <appender-ref ref="RollingFileInfo"/>
